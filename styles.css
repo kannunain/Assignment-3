@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+html {
+    background-image: url(../images/background.jpeg);
+    background-color: #fff;
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+body {
+	margin: 50px auto 50px;
+	min-width: 768px;
+	max-width: 1024px;
+}
+header {
+    font-size: larger;
+    padding: 5px;
+    text-align: center;
+    background-color: #f7f7f7;
+    text-decoration: underline;
+    color: red ;
+}
+header ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;;
+}
+header ul li {
+	padding-right: 10px;
+	margin-right: 10px;
+	border-right: 1px solid green;
+    font-size: 20px;
+}
+header ul li a:hover {
+	text-decoration: none;
+	color:darkblue;
+}
+header ul li a {
+	color:green;
+    font-family: 'Montserrat', sans-serif;
+}
+h2 {
+    color: red;
+    text-decoration: underline;
+}
+aside{
+    margin: 50px auto;
+    max-width: 950px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+}
+footer {
+    background-color: #f7f7f7;
+    margin: 50px auto;
+    padding: 10px;
+    min-width: none;
+    max-width: 950px;
+}
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
